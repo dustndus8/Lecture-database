@@ -1,0 +1,39 @@
+<HTML> 
+<HEAD> 
+<META http-equiv="content-type" content="text/html; charset=utf-8">
+</HEAD> 
+<BODY>
+<H1>[택배 조회 서비스]</H1>
+
+<A href="deliveryTotalSelect.php"><H3>전체 택배 조회하기</H3></A>
+
+
+<FORM METHOD="get" ACTION="deliverySelect.php"> 
+<H3>송장번호로 택배 조회하기</H3>
+<SELECT NAME="companyName">
+<OPTION VALUE="">==회사를 선택하세요==</OPTION>
+<OPTION VALUE="CJ">CJ</OPTION>
+<OPTION VALUE="대한통운">대한통운</OPTION>
+<OPTION VALUE="우체국">우체국</OPTION>
+<OPTION VALUE="롯데">롯데</OPTION>
+<OPTION VALUE="한진">한진</OPTION>
+<OPTION VALUE="로젠">로젠</OPTION>
+</SELECT>
+송장번호 : <INPUT TYPE ="text" NAME="trackingNumber"> 
+ <INPUT TYPE="submit" VALUE="조회하기"> 
+ </FORM>
+
+<FORM METHOD="get" ACTION="orderBestItem.php"> 
+<H3>한 주간 많이 배송된 물건이 무엇인지 궁금하다면?</H3>
+날짜입력(형식:YYYY-MM-DD) : <INPUT TYPE ="text" NAME="date"> 
+ <INPUT TYPE="submit" VALUE="검색하기"> <br>
+</FORM>
+<FORM METHOD="get" ACTION="orderSearchItem.php">
+<H3>물건 검색하기</H3> 
+물건이름(상품명)검색 : <INPUT TYPE ="text" NAME="item"> 
+ <INPUT TYPE="submit" VALUE="검색하기"> 
+<br><br>
+ </FORM>
+
+</BODY> 
+</HTML>

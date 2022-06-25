@@ -31,11 +31,11 @@
 
 # 메뉴 소개
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/05905e9a-6bd7-494f-b485-e16cba9a8af4/Untitled.png)
+![택배관리시스템_메뉴소개](https://user-images.githubusercontent.com/75442105/175776826-1d57b88b-7a26-4c18-9929-6679c01ce9ce.png)
 
 # E-R Diagram
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76b9f8b8-02dd-467a-98fd-d63238d5d149/Untitled.png)
+![택배관리시스템_ER](https://user-images.githubusercontent.com/75442105/175776832-9679dac7-0108-4302-b355-2eafa0ff7213.jpg)
 
 1)택배는 송장번호, 물건이름, 택배회사이름, 발송인, 수신인, 주소, 배송날짜를 가진다.
 2)택배기사는 택배기사ID, 기사이름, 담당지역, 전화번호를 가진다.
